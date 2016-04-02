@@ -1,0 +1,51 @@
+<html>
+<head>
+    <style>
+        body {
+            width: 200px;
+        }
+        h1 {
+            font-size: 120%;
+            line-height: 120%;
+        }
+        #referer, #ua {
+        	padding: 5px;
+		    width: 100%;
+		    font: 100% arial;
+		    border: 1px solid #E5E5DB;
+		    background: #FFF;
+		    color: #47433F;
+        }
+        #ua_random_switch {
+        	margin-left: 15px;
+        }
+        input {
+        	margin: 7px 0 7px 0;
+        }
+        hr {
+            height:1px;
+            border:none;
+            border-top:1px dashed #0066CC;
+        }
+        input[type="checkbox"] {
+            vertical-align:middle;
+        }
+        label {
+            vertical-align:middle;
+        }
+    </style>
+    <script src="res/popup.js"></script>
+</head>
+
+<body>
+	<h1>1. Referer</h1>
+    <input id="referer_switch" type="checkbox"> <label id="referer_text"></label> </input>
+    <input id="referer" type="text" value="" placeholder=""></input>
+    <hr />
+    <h1>2. UserAgent</h1>
+    <input id="random_ua" type="checkbox"> <label id="ua_text"></label> </input>
+    <hr />
+    <h1>3. IP Address</h1>
+    <input id="random_ip" type="checkbox"> <label id="ip_text"></label> </input>
+</body>
+</html>

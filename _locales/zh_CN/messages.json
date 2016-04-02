@@ -1,0 +1,23 @@
+{
+   "extDesp": {
+      "message": "一个可以自定义HTTP Header信息的Chrome插件，包括Referer访问来源、随机UA信息、随机IP地址。"
+   },
+   "extName": {
+      "message": "Header自定义工具"
+   },
+   "refererSwitchOn": {
+   		"message": "开启自定义Referer"
+   },
+   "writeCusReferer": {
+   		"message": "填写Referrer访问来源"
+   },
+   "randomUASwitchOn": {
+   		"message": "开启随机UA"
+   },
+   "randomIPSwitchOn": {
+   		"message": "开启随机IP地址"
+   },
+   "waiting": {
+      "message": "请稍等…"
+   }
+}

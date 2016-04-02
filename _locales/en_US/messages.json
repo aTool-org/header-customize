@@ -1,0 +1,23 @@
+{
+   "extDesp": {
+      "message": "Can Customize HTTP Header, Include Referer / Ramdom UA / Random IP."
+   },
+   "extName": {
+      "message": "HTTP Header Modifier"
+   },
+   "refererSwitchOn": {
+   		"message": "Customized ON / OFF"
+   },
+   "writeCusReferer": {
+   		"message": "Write Customized Referer"
+   },
+   "randomUASwitchOn": {
+   		"message": "Random UA ON / OFF"
+   },
+   "randomIPSwitchOn": {
+   		"message": "Random IP ON / OFF"
+   },
+   "waiting": {
+      "message": "Please wait..."
+   }
+}
